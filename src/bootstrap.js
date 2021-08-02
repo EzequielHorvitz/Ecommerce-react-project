@@ -4,11 +4,10 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import { BrowserRouter } from 'react-router-dom';
 import reducers from './reducers';
-import Layout from './components/Layout';
+import Layout from './components/layout';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-//import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 
 
