@@ -10,6 +10,19 @@ class Account extends Component {
 
     componentDidMount() {
 
+        const headerLinks = [
+            {
+                _id: 0,
+                title: 'Shop',
+                plath: '/shop'
+            },
+            {
+                _id: 1,
+                title: 'Logout',
+                path: '/'
+            }
+        ]
+
         const navbarLinks = [
             {
                 _id: 0,
