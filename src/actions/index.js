@@ -5,13 +5,21 @@ import {
 } from './headernavbar';
 
 import {
-    fetchUserPurchases
+    fetchUserPurchases,
+    setPurchaseDetail
 } from './user';
+
+import {
+    fetchShopCategories
+} from './shop';
 
 export {
     setHeaderLinks,
     setNavbarLinks,
     changeNavbarActive,
 
-    fetchUserPurchases
+    fetchUserPurchases,
+    setPurchaseDetail,
+
+    fetchShopCategories
 };
