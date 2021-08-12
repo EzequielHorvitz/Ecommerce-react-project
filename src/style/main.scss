@@ -18,7 +18,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent; 
+    -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -52,3 +52,4 @@ body {
 
 // REVIEW
 @import 'order/review';
+@import 'order/reviewForm';
