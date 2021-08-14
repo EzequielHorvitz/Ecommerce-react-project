@@ -18,7 +18,7 @@ import Account from './components/account/account';
 import Shop from './components/shop/shop';
 import Review from './components/order/review';
 import Shipping from './components/information/shipping';
-import Payment from './components/information/payment';
+import Payment from './components/information/payments';
 
 function main() {
   ReactDOM.render(
